@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsnParser", "AsnParser\AsnParser.csproj", "{77C626E6-F86B-4312-A8B0-29B3B49378A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnsParserUnitTest", "AnsParserUnitTest\AnsParserUnitTest.csproj", "{646F3A9F-11AC-446C-8671-E1F6668FB96E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77C626E6-F86B-4312-A8B0-29B3B49378A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C626E6-F86B-4312-A8B0-29B3B49378A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C626E6-F86B-4312-A8B0-29B3B49378A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C626E6-F86B-4312-A8B0-29B3B49378A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646F3A9F-11AC-446C-8671-E1F6668FB96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646F3A9F-11AC-446C-8671-E1F6668FB96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646F3A9F-11AC-446C-8671-E1F6668FB96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646F3A9F-11AC-446C-8671-E1F6668FB96E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
