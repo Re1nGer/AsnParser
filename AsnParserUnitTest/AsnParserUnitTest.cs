@@ -44,7 +44,7 @@ public class AsnParserTest : IDisposable
 
         var boxCollection = await dataParser.ParseAnsLoadToDbFrom(TestFilePath);
 
-        Assert.Equal(0, boxCollection.Count);
+        Assert.Empty(boxCollection);
     }
 
     [Fact]
