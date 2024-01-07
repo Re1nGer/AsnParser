@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsnParser", "AsnParser\AsnParser.csproj", "{77C626E6-F86B-4312-A8B0-29B3B49378A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnsParserUnitTest", "AnsParserUnitTest\AnsParserUnitTest.csproj", "{646F3A9F-11AC-446C-8671-E1F6668FB96E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsnParserUnitTest", "AsnParserUnitTest\AsnParserUnitTest.csproj", "{646F3A9F-11AC-446C-8671-E1F6668FB96E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

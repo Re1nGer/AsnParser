@@ -1,19 +1,19 @@
 using AsnParser;
 
-namespace AnsParserUnitTest;
+namespace AsnParserUnitTest;
 using System;
 using System.IO;
 using System.Linq;
 using Xunit;
 
-public class AnsParserTest : IDisposable
+public class AsnParserTest : IDisposable
 {
     private const string TestFilePath = "test_data.txt";
     private const string HeaderKeyWord = "HDR";
     private const string ContentKeyWord = "LINE";
 
     [Fact]
-    public async Task ParseAnsFrom_ValidFile_ParsesCorrectly()
+    public async Task ParseAsnFrom_ValidFile_ParsesCorrectly()
     {
         var dataParser = new AsnParserService(HeaderKeyWord, ContentKeyWord);
         
@@ -36,7 +36,7 @@ public class AnsParserTest : IDisposable
     }
     
     [Fact]
-    public async Task ParseAnsFrom_EmptyFile_ReturnsEmptyCollection()
+    public async Task ParseAsnFrom_EmptyFile_ReturnsEmptyCollection()
     {
         var dataParser = new AsnParserService(HeaderKeyWord, ContentKeyWord);
         
@@ -48,7 +48,7 @@ public class AnsParserTest : IDisposable
     }
 
     [Fact]
-    public void ParseAnsHeaderLine_ValidLine_ReturnsBoxWithCorrectValues()
+    public void ParseAsnHeaderLine_ValidLine_ReturnsBoxWithCorrectValues()
     {
         var dataParser = new AsnParserService(HeaderKeyWord, ContentKeyWord);
         var line = "HDR TRSP117 6874453I";
